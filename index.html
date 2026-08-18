@@ -1,23 +1,996 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ashutosh | Web Developer Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+
+<header class="navbar">
+    <div class="container nav-inner">
+
+        <a href="#" class="logo">
+            <span class="logo-box">A</span>
+            <span>Aarav.</span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#work">Skills</a>
+            <a href="#projects">Work</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="nav-btn">Hire Me</a>
+
+        <button class="menu-btn" id="menuBtn">
+            ☰
+        </button>
+
+    </div>
+</header>
+
+
+<main>
+
+
+
+<section class="hero" id="home">
+
+    <div class="container hero-grid">
+
+        <div class="hero-content">
+
+            <span class="small-pill">
+                ✦ Available for projects
+            </span>
+
+            <h1>
+                I build fast,<br>
+                accessible <span>web</span><br>
+                interfaces that<br>
+                convert.
+            </h1>
+
+            <p>
+                Front-end developer focused on pixel-perfect,
+                responsive experiences that look great and
+                perform even better.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="primary-btn">
+                    View my work →
+                </a>
+
+                <a href="#contact" class="secondary-btn">
+                    Download CV
+                </a>
+            </div>
+
+            <div class="trusted">
+                <div class="avatars">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div>
+                    <strong>32 happy clients</strong>
+                    <small>accross 6 countries</small>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- Dashboard Mockup -->
+
+        <div class="hero-visual">
+
+            <div class="floating-tag tag-top">
+                <span>●</span>
+                <b>5+ Years</b>
+                <small>Experience</small>
+            </div>
+
+            <div class="dashboard">
+
+                <div class="dash-gradient"></div>
+
+                <div class="dash-center">
+                    <span>PROJECT PREVIEW</span>
+                </div>
+
+                <div class="dash-bottom">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+            </div>
+
+            <div class="floating-tag tag-bottom">
+                <span>●</span>
+                <b>48 Projects</b>
+                <small>Delivered</small>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- STATS  -->
+
+<section class="stats-section">
+
+    <div class="container stats">
+
+        <div class="stat">
+            <strong>48<span>+</span></strong>
+            <small>PROJECTS DONE</small>
+        </div>
+
+        <div class="stat">
+            <strong>32<span>+</span></strong>
+            <small>HAPPY CLIENTS</small>
+        </div>
+
+        <div class="stat">
+            <strong>5<span>+</span></strong>
+            <small>YEARS EXP.</small>
+        </div>
+
+        <div class="stat">
+            <strong>12<span>k</span></strong>
+            <small>COFFEE CUPS</small>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- SKILLS -->
+
+<section class="skills-section" id="about">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span class="section-pill">
+                ✦ MY EXPERTISE
+            </span>
+
+            <h2>What I work with every day</h2>
+
+            <p>
+                Tabs group the stack,progress show depth, the doughnut show 
+                how my time splites.
+            </p>
+
+        </div>
+
+
+        <div class="skills-wrapper">
+
+            <!-- LEFT -->
+
+            <div class="skills-list">
+
+                <div class="skill-tabs">
+                    <button class="tab active">Front-end</button>
+                    <button class="tab">Styling</button>
+                    <button class="tab">Tools</button>
+                </div>
+
+                <div class="skill-item">
+                    <div>
+                        <span>HTML5 & Semantics</span>
+                        <b>95%</b>
+                    </div>
+                    <div class="progress">
+                        <span style="width:95%"></span>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div>
+                        <span>CSS3 / Flexbox / Grid</span>
+                        <b>90%</b>
+                    </div>
+                    <div class="progress">
+                        <span style="width:92%"></span>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div>
+                        <span>Bootstrap 5</span>
+                        <b>88%</b>
+                    </div>
+                    <div class="progress">
+                        <span style="width:88%"></span>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div>
+                        <span>JavaScript(ES6)</span>
+                        <b>75%</b>
+                    </div>
+                    <div class="progress">
+                        <span style="width:86%"></span>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div>
+                        <span>Accessibility & SEO</span>
+                        <b>78%</b>
+                    </div>
+                    <div class="progress">
+                        <span style="width:82%"></span>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- DONUT -->
+
+            <div class="donut-card">
+
+                <h3>How my time splits</h3>
+
+                <div class="donut"></div>
+
+                <div class="donut-center">
+                    <strong>100%</strong>
+                    <small>EFFORT</small>
+                </div>
+
+                <div class="legend">
+
+                    <div>
+                        <i class="blue"></i>
+                        Markup 40%
+                    </div>
+
+                    <div>
+                        <i class="orange"></i>
+                        Styling 26%
+                    </div>
+
+                    <div>
+                        <i class="cyan"></i>
+                        Testing 14%
+                    </div>
+
+                    <div>
+                        <i class="purple"></i>
+                        Scripting 20%
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!--  PROJECTS -->
+
+<section class="projects-section" id="projects">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            
+
+            <h2>Selected work</h2>
+
+            <p>
+               Six card in a responsive grid. Filter pills on top ,each opensa detail 
+               modal.
+            </p>
+
+        </div>
+
+
+        <div class="project-filter">
+
+            <button class="filter active">All</button>
+            <button class="filter">Web Apps</button>
+            <button class="filter">Landing Pages</button>
+            <button class="filter">Dashboards</button>
+            <button class="filter">E-commerce</button>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+
+            <!-- CARD 1 -->
+
+            <article class="project-card">
+
+                <div class="project-image">
+                    <span>THUMB 16:10</span>
+                </div>
+
+                <div class="project-content">
+
+                    <div class="project-tags">
+                        <span>Bootstrap</span>
+                        <span>SCSS</span>
+                    </div>
+
+                    <h3>Finlytics Dashboard</h3>
+
+                    <p>
+                        Analytics UI with dark mode, data tables and 
+                        a chart-heavy overview screen.
+                    </p>
+
+                    <a href="#" class="project-link">
+                        View case study →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- CARD 2 -->
+
+            <article class="project-card">
+
+                <div class="project-image">
+                    <span>THUMB 16:10</span>
+                </div>
+
+                <div class="project-content">
+
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS Grid</span>
+                    </div>
+
+                    <h3>Wanderlust Travel</h3>
+
+                    <p>
+                        Landing page for a tour operator with a 
+                        booking enquiry flow and galery.
+                    </p>
+
+                    <a href="#" class="project-link">
+                        View case study →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- CARD 3 -->
+
+            <article class="project-card">
+
+                <div class="project-image">
+                    <span>THUMB 16:10</span>
+                </div>
+
+                <div class="project-content">
+
+                    <div class="project-tags">
+                        <span>Bootstrap JS</span>
+                        <span>UI</span>
+                    </div>
+
+                    <h3>Bloom Store</h3>
+
+                    <p>
+                        Product listing , quick-view modal 
+                        and a 
+                        <br>
+                        sticky filter sidebar for a florist.
+                    </p>
+
+                    <a href="#" class="project-link">
+                        View case study →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- CARD 4 -->
+
+            <article class="project-card">
+
+                <div class="project-image">
+                    <span>THUMB 16:10</span>
+                </div>
+
+                <div class="project-content">
+
+                    <div class="project-tags">
+                        <span>Mobile</span>
+                        <span>React</span>
+                    </div>
+
+                    <h3>Mobile CRM</h3>
+
+                    <p>
+                        Mobile-first CRM interface built for
+                        sales teams.
+                    </p>
+
+                    <a href="#" class="project-link">
+                        View case study →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- CARD 5 -->
+
+            <article class="project-card">
+
+                <div class="project-image">
+                    <span>PROJECT PREVIEW</span>
+                </div>
+
+                <div class="project-content">
+
+                    <div class="project-tags">
+                        <span>Web App</span>
+                        <span>API</span>
+                    </div>
+
+                    <h3>Store Admin</h3>
+
+                    <p>
+                        Powerful administration interface for
+                        managing products and orders.
+                    </p>
+
+                    <a href="#" class="project-link">
+                        View case study →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- CARD 6 -->
+
+            <article class="project-card">
+
+                <div class="project-image">
+                    <span>PROJECT PREVIEW</span>
+                </div>
+
+                <div class="project-content">
+
+                    <div class="project-tags">
+                        <span>Full Stack</span>
+                        <span>Node.js</span>
+                    </div>
+
+                    <h3>TaskFlow App</h3>
+
+                    <p>
+                        Productivity platform designed for
+                        efficient project management.
+                    </p>
+
+                    <a href="#" class="project-link">
+                        View case study →
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+
+        <div class="center-btn">
+            <a href="#" class="outline-btn">
+                Load more projects
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= TESTIMONIAL ================= -->
+
+<section class="testimonial-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span class="section-pill">
+                ✦ TESTIMONIALS
+            </span>
+
+            <h2>Kind words from clients</h2>
+
+        </div>
+
+
+        <div class="testimonial-card">
+
+            <span class="quote">“</span>
+
+            <div class="stars">
+                ★★★★★
+            </div>
+
+            <p>
+                Ashutosh delivered outstanding work. His attention
+                to detail and understanding of user experience made
+                the final product better than we imagined.
+                He is incredibly reliable and easy to work with.
+            </p>
+
+            <div class="client">
+
+                <div class="client-avatar">
+                    AS
+                </div>
+
+                <div>
+                    <strong>Priya Sharma</strong>
+                    <small>Product Manager</small>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="slider-dots">
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section class="contact-section" id="contact">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span class="section-pill">
+                ✦ GET IN TOUCH
+            </span>
+
+            <h2>Let's build something together</h2>
+
+            <p>
+                Tell me about your project and let's discuss
+                how we can turn your idea into reality.
+            </p>
+
+        </div>
+
+
+        <div class="contact-grid">
+
+
+            <!-- FORM -->
+
+            <form class="contact-form">
+
+                <div class="form-row">
+
+                    <div class="form-group">
+                        <label>Your name</label>
+                        <input
+                            type="text"
+                            placeholder="John Doe"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label>Email address</label>
+                        <input
+                            type="email"
+                            placeholder="john@example.com"
+                        >
+                    </div>
+
+                </div>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+                        <label>Company</label>
+                        <input
+                            type="text"
+                            placeholder="Company name"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label>Budget</label>
+                        <select>
+                            <option>Select budget</option>
+                            <option>$500 - $1,000</option>
+                            <option>$1,000 - $3,000</option>
+                            <option>$3,000+</option>
+                        </select>
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+                    <label>Subject</label>
+
+                    <input
+                        type="text"
+                        placeholder="How can I help?"
+                    >
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>Message</label>
+
+                    <textarea
+                        rows="6"
+                        placeholder="Tell me about your project..."
+                    ></textarea>
+
+                </div>
+
+
+                <button class="primary-btn submit-btn">
+                    Send message →
+                </button>
+
+            </form>
+
+
+            <!-- RIGHT SIDE -->
+
+            <div class="contact-right">
+
+                <div class="contact-item">
+                    <div class="contact-icon">✉</div>
+
+                    <div>
+                        <strong>Email</strong>
+                        <span>hello@example.com</span>
+                    </div>
+                </div>
+
+
+                <div class="contact-item">
+                    <div class="contact-icon">▣</div>
+
+                    <div>
+                        <strong>Let's connect</strong>
+                        <span>LinkedIn / GitHub</span>
+                    </div>
+                </div>
+
+
+                <div class="contact-item">
+                    <div class="contact-icon">⌖</div>
+
+                    <div>
+                        <strong>Location</strong>
+                        <span>Lucknow, India</span>
+                    </div>
+                </div>
+
+
+                <!-- FAQ -->
+
+                <div class="faq">
+
+                    <h3>Frequently asked</h3>
+
+                    <details open>
+                        <summary>
+                            What is your typical turnaround?
+                            <span>−</span>
+                        </summary>
+
+                        <p>
+                            Most projects take between 1–4 weeks
+                            depending on scope and complexity.
+                        </p>
+                    </details>
+
+
+                    <details>
+                        <summary>
+                            Do you work with existing teams?
+                            <span>+</span>
+                        </summary>
+
+                        <p>
+                            Yes, I regularly collaborate with
+                            designers, developers and product teams.
+                        </p>
+                    </details>
+
+
+                    <details>
+                        <summary>
+                            Where do you work from?
+                            <span>+</span>
+                        </summary>
+
+                        <p>
+                            I work remotely with clients worldwide.
+                        </p>
+                    </details>
+
+
+                    <details>
+                        <summary>
+                            What tools do you use?
+                            <span>+</span>
+                        </summary>
+
+                        <p>
+                            React, JavaScript, Node.js, CSS,
+                            Git, GitHub and modern development tools.
+                        </p>
+                    </details>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="container footer-grid">
+
+        <div class="footer-about">
+
+            <a href="#" class="logo footer-logo">
+                <span class="logo-box">A</span>
+                <span>Ashyu.</span>
+            </a>
+
+            <p>
+                Frontend developer creating fast, accessible
+                and beautiful digital experiences.
+            </p>
+
+            <div class="socials">
+                <a href="#">in</a>
+                <a href="#">GH</a>
+                <a href="#">𝕏</a>
+                <a href="#">◎</a>
+            </div>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Navigate</h4>
+
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Work</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Resources</h4>
+
+            <a href="#">Resume</a>
+            <a href="#">Case Studies</a>
+            <a href="#">Blog</a>
+            <a href="#">Privacy</a>
+
+        </div>
+
+
+        <div class="footer-newsletter">
+
+            <h4>Stay in touch</h4>
+
+            <p>
+                Get occasional updates and useful frontend tips.
+            </p>
+
+            <div class="newsletter">
+
+                <input
+                    type="email"
+                    placeholder="Your email"
+                >
+
+                <button>→</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom container">
+
+        <span>
+            © 2026 Ashutosh. All rights reserved.
+        </span>
+
+        <div>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Sitemap</a>
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- ================= PROJECT MODAL ================= -->
+
+<div class="modal" id="projectModal">
+
+    <div class="modal-content">
+
+        <button class="modal-close" id="closeModal">
+            ×
+        </button>
+
+        <span class="modal-label">
+            SELECTED PROJECT
+        </span>
+
+        <h2>Analytics Dashboard</h2>
+
+        <div class="modal-preview">
+            <span>PROJECT PREVIEW</span>
+        </div>
+
+        <p>
+            A modern dashboard interface designed to display
+            complex analytics in a simple and accessible way.
+        </p>
+
+        <div class="modal-info">
+
+            <div>
+                <small>CLIENT</small>
+                <strong>Fintech</strong>
+            </div>
+
+            <div>
+                <small>YEAR</small>
+                <strong>2026</strong>
+            </div>
+
+            <div>
+                <small>ROLE</small>
+                <strong>Frontend</strong>
+            </div>
+
+        </div>
+
+        <div class="modal-buttons">
+            <button class="secondary-btn">Close</button>
+            <button class="primary-btn">View live site →</button>
+        </div>
+
+    </div>
+
+</div>
+
+
+<script>
+
+const menuBtn = document.getElementById("menuBtn");
+const navLinks = document.querySelector(".nav-links");
+
+menuBtn.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+});
+
+
+/* Modal */
+
+const modal = document.getElementById("projectModal");
+const closeModal = document.getElementById("closeModal");
+
+document.querySelectorAll(".project-link").forEach(link => {
+
+    link.addEventListener("click", function(e) {
+
+        e.preventDefault();
+
+        modal.classList.add("show");
+
+    });
+
+});
+
+
+closeModal.addEventListener("click", () => {
+    modal.classList.remove("show");
+});
+
+
+modal.addEventListener("click", e => {
+
+    if(e.target === modal){
+        modal.classList.remove("show");
+    }
+
+});
+
+</script>
+
+</body>
 </html>
