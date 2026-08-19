@@ -14,6 +14,11 @@
     >
 
     <link rel="stylesheet" href="styles.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+>
+
 </head>
 
 
@@ -89,7 +94,6 @@
                     <span></span>
                     <span></span>
                 </div>
-
                 <div>
                     
                     <div class="stars">★★★★★</div>
@@ -177,139 +181,369 @@
 
     <div class="container">
 
+        <!-- SECTION HEADING -->
         <div class="section-heading">
-            <span class="section-pill">✦ MY EXPERTISE</span>
+
+            <span class="section-pill">
+                ✦ MY EXPERTISE
+            </span>
+
             <h2>What I work with every day</h2>
+
             <p>
-                Tabs group the stack, progress shows depth, the doughnut shows how my time splits.
+                Tabs group the stack, progress bars show depth,
+                the doughnut shows how my time splits.
             </p>
+
         </div>
+
 
         <div class="skills-wrapper">
 
-            <!-- LEFT: SKILLS WITH TABS -->
+
+            <!-- =================================
+                 LEFT SIDE — SKILLS
+            ================================== -->
+
             <div class="skills-list">
 
-                <!-- TABS BUTTONS -->
+                <!-- TABS -->
+
                 <div class="skill-tabs">
-                    <button class="tab active" data-tab="frontend">Front-end</button>
-                    <button class="tab" data-tab="styling">Styling</button>
-                    <button class="tab" data-tab="tools">Tools</button>
+
+                    <button
+                        class="tab active"
+                        data-tab="frontend"
+                        type="button"
+                    >
+                        Front-end
+                    </button>
+
+                    <button
+                        class="tab"
+                        data-tab="styling"
+                        type="button"
+                    >
+                        Styling
+                    </button>
+
+                    <button
+                        class="tab"
+                        data-tab="tools"
+                        type="button"
+                    >
+                        Tools
+                    </button>
+
                 </div>
 
-                <!-- TAB 1: FRONT-END -->
-                <div class="tab-content active" id="frontend">
+
+                <!-- =================================
+                     FRONT-END TAB
+                ================================== -->
+
+                <div
+                    class="tab-content active"
+                    id="frontend"
+                >
+
+                    <!-- HTML -->
                     <div class="skill-item">
-                        <div>
-                            <span>HTML5 & Semantics</span>
+
+                        <div class="skill-info">
+
+                            <span>
+                                HTML5 &amp; Semantics
+                            </span>
+
                             <b>95%</b>
-                        </div>
-                        <div class="progress">
-                            <span style="width:95%"></span>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div>
-                            <span>JavaScript (ES6+)</span>
-                            <b>75%</b>
-                        </div>
-                        <div class="progress">
-                            <span style="width:75%"></span>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div>
-                            <span>Accessibility & SEO</span>
-                            <b>78%</b>
-                        </div>
-                        <div class="progress">
-                            <span style="width:78%"></span>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- TAB 2: STYLING -->
-                <div class="tab-content" id="styling" style="display: none;">
-                    <div class="skill-item">
-                        <div>
-                            <span>CSS3 / Flexbox / Grid</span>
-                            <b>90%</b>
                         </div>
+
                         <div class="progress">
-                            <span style="width:90%"></span>
+                            <span style="width: 95%"></span>
                         </div>
+
                     </div>
+
+
+                    <!-- CSS -->
                     <div class="skill-item">
-                        <div>
-                            <span>Bootstrap 5</span>
+
+                        <div class="skill-info">
+
+                            <span>
+                                CSS3 / Flexbox / Grid
+                            </span>
+
+                            <b>90%</b>
+
+                        </div>
+
+                        <div class="progress">
+                            <span style="width: 90%"></span>
+                        </div>
+
+                    </div>
+
+
+                    <!-- Bootstrap -->
+                    <div class="skill-item">
+
+                        <div class="skill-info">
+
+                            <span>
+                                Bootstrap 5
+                            </span>
+
                             <b>88%</b>
+
                         </div>
+
                         <div class="progress">
-                            <span style="width:88%"></span>
+                            <span style="width: 88%"></span>
                         </div>
+
                     </div>
+
+
+                    <!-- JavaScript -->
                     <div class="skill-item">
-                        <div>
-                            <span>Sass / SCSS</span>
-                            <b>80%</b>
+
+                        <div class="skill-info">
+
+                            <span>
+                                JavaScript (ES6+)
+                            </span>
+
+                            <b>75%</b>
+
                         </div>
+
                         <div class="progress">
-                            <span style="width:80%"></span>
+                            <span style="width: 75%"></span>
                         </div>
+
                     </div>
+
+
+                    <!-- Accessibility -->
+                    <div class="skill-item">
+
+                        <div class="skill-info">
+
+                            <span>
+                                Accessibility &amp; SEO
+                            </span>
+
+                            <b>78%</b>
+
+                        </div>
+
+                        <div class="progress">
+                            <span style="width: 78%"></span>
+                        </div>
+
+                    </div>
+
                 </div>
 
-                <!-- TAB 3: TOOLS -->
-                <div class="tab-content" id="tools" style="display: none;">
+
+                <!-- =================================
+                     STYLING TAB
+                ================================== -->
+
+                <div
+                    class="tab-content"
+                    id="styling"
+                >
+
                     <div class="skill-item">
-                        <div>
-                            <span>Git & GitHub</span>
-                            <b>85%</b>
+
+                        <div class="skill-info">
+
+                            <span>
+                                Sass / SCSS
+                            </span>
+
+                            <b>80%</b>
+
                         </div>
+
                         <div class="progress">
-                            <span style="width:85%"></span>
+                            <span style="width: 80%"></span>
                         </div>
+
                     </div>
+
+
                     <div class="skill-item">
-                        <div>
-                            <span>VS Code</span>
-                            <b>90%</b>
+
+                        <div class="skill-info">
+
+                            <span>
+                                Responsive Design
+                            </span>
+
+                            <b>92%</b>
+
                         </div>
+
                         <div class="progress">
-                            <span style="width:90%"></span>
+                            <span style="width: 92%"></span>
                         </div>
+
                     </div>
+
+
                     <div class="skill-item">
-                        <div>
-                            <span>Figma / Responsive Design</span>
+
+                        <div class="skill-info">
+
+                            <span>
+                                UI / UX Design
+                            </span>
+
                             <b>82%</b>
+
                         </div>
+
                         <div class="progress">
-                            <span style="width:82%"></span>
+                            <span style="width: 82%"></span>
                         </div>
+
                     </div>
+
+                </div>
+
+
+                <!-- =================================
+                     TOOLS TAB
+                ================================== -->
+
+                <div
+                    class="tab-content"
+                    id="tools"
+                >
+
+                    <div class="skill-item">
+
+                        <div class="skill-info">
+
+                            <span>
+                                Git &amp; GitHub
+                            </span>
+
+                            <b>85%</b>
+
+                        </div>
+
+                        <div class="progress">
+                            <span style="width: 85%"></span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-item">
+
+                        <div class="skill-info">
+
+                            <span>
+                                VS Code
+                            </span>
+
+                            <b>90%</b>
+
+                        </div>
+
+                        <div class="progress">
+                            <span style="width: 90%"></span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-item">
+
+                        <div class="skill-info">
+
+                            <span>
+                                Figma
+                            </span>
+
+                            <b>82%</b>
+
+                        </div>
+
+                        <div class="progress">
+                            <span style="width: 82%"></span>
+                        </div>
+
+                    </div>
+
                 </div>
 
             </div>
 
-            <!-- RIGHT: DONUT CHART -->
+
+
+            <!-- =================================
+                 RIGHT SIDE — DONUT
+            ================================== -->
+
             <div class="donut-card">
-                <h3>How my time splits</h3>
-            
+
+                <h3>
+                    How my time splits
+                </h3>
+
+
                 <div class="donut-wrapper">
+
                     <canvas id="timeSplitChart"></canvas>
+
                     <div class="donut-center">
-                        <strong id="donut-percent">100%</strong>
-                        <small id="donut-text">EFFORT</small>
+
+                        <strong id="donut-percent">
+                            100%
+                        </strong>
+
+                        <small id="donut-text">
+                            EFFORT
+                        </small>
+
                     </div>
+
                 </div>
-            
+
+
+                <!-- LEGEND -->
+
                 <div class="legend">
-                    <div><i class="blue"></i> Markup 40%</div>
-                    <div><i class="orange"></i> Styling 26%</div>
-                    <div><i class="purple"></i> Scripting 20%</div>
-                    <div><i class="cyan"></i> Testing 14%</div>
+
+                    <div>
+                        <i class="blue"></i>
+                        <span>Markup 40%</span>
+                    </div>
+
+                    <div>
+                        <i class="orange"></i>
+                        <span>Styling 26%</span>
+                    </div>
+
+                    <div>
+                        <i class="purple"></i>
+                        <span>Scripting 20%</span>
+                    </div>
+
+                    <div>
+                        <i class="cyan"></i>
+                        <span>Testing 14%</span>
+                    </div>
+
                 </div>
+
             </div>
 
         </div>
@@ -319,43 +553,62 @@
 </section>
 
 
-<!--  PROJECTS -->
+<!-- ================= PROJECTS SECTION ================= -->
 
 <section class="projects-section" id="projects">
 
     <div class="container">
 
+        <!-- SECTION HEADING -->
         <div class="section-heading">
 
-            
+            <span class="section-pill">
+                ✦ MY WORK
+            </span>
 
-            <h2>Selected work</h2>
+            <h2>Selected Work</h2>
 
             <p>
-               Six card in a responsive grid. Filter pills on top ,each opensa detail 
-               modal.
+                A collection of selected projects built with modern
+                web technologies and responsive design.
             </p>
 
         </div>
 
 
+        <!-- PROJECT FILTER -->
         <div class="project-filter">
 
-            <button class="filter active">All</button>
-            <button class="filter">Web Apps</button>
-            <button class="filter">Landing Pages</button>
-            <button class="filter">Dashboards</button>
-            <button class="filter">E-commerce</button>
+            <button class="filter active" data-filter="all">
+                All
+            </button>
+
+            <button class="filter" data-filter="web-apps">
+                Web Apps
+            </button>
+
+            <button class="filter" data-filter="landing-pages">
+                Landing Pages
+            </button>
+
+            <button class="filter" data-filter="dashboards">
+                Dashboards
+            </button>
+
+            <button class="filter" data-filter="e-commerce">
+                E-commerce
+            </button>
 
         </div>
 
+
+        <!-- ================= PROJECT GRID ================= -->
 
         <div class="projects-grid">
 
 
             <!-- CARD 1 -->
-
-            <article class="project-card">
+            <article class="project-card" data-category="dashboards">
 
                 <div class="project-image">
                     <span>THUMB 16:10</span>
@@ -371,12 +624,18 @@
                     <h3>Finlytics Dashboard</h3>
 
                     <p>
-                        Analytics UI with dark mode, data tables and 
-                        a chart-heavy overview screen.
+                        Analytics UI with dark mode, data tables
+                        and a chart-heavy overview screen.
                     </p>
 
-                    <a href="#" class="project-link">
-                        View case study →
+                    <!-- NEW PAGE -->
+                    <a
+                        href="dashboard.html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-link"
+                    >
+                        View dashboard →
                     </a>
 
                 </div>
@@ -385,8 +644,7 @@
 
 
             <!-- CARD 2 -->
-
-            <article class="project-card">
+            <article class="project-card" data-category="landing-pages">
 
                 <div class="project-image">
                     <span>THUMB 16:10</span>
@@ -402,11 +660,16 @@
                     <h3>Wanderlust Travel</h3>
 
                     <p>
-                        Landing page for a tour operator with a 
-                        booking enquiry flow and galery.
+                        Landing page for a tour operator with
+                        a booking enquiry flow and gallery.
                     </p>
 
-                    <a href="#" class="project-link">
+                    <a
+                        href="wanderlust.html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-link"
+                    >
                         View case study →
                     </a>
 
@@ -416,8 +679,7 @@
 
 
             <!-- CARD 3 -->
-
-            <article class="project-card">
+            <article class="project-card" data-category="e-commerce">
 
                 <div class="project-image">
                     <span>THUMB 16:10</span>
@@ -433,13 +695,16 @@
                     <h3>Bloom Store</h3>
 
                     <p>
-                        Product listing , quick-view modal 
-                        and a 
-                        <br>
+                        Product listing, quick-view modal and
                         sticky filter sidebar for a florist.
                     </p>
 
-                    <a href="#" class="project-link">
+                    <a
+                        href="bloom-store.html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-link"
+                    >
                         View case study →
                     </a>
 
@@ -449,8 +714,7 @@
 
 
             <!-- CARD 4 -->
-
-            <article class="project-card">
+            <article class="project-card" data-category="web-apps">
 
                 <div class="project-image">
                     <span>THUMB 16:10</span>
@@ -467,10 +731,15 @@
 
                     <p>
                         Mobile-first CRM interface built for
-                        sales teams.
+                        modern sales teams.
                     </p>
 
-                    <a href="#" class="project-link">
+                    <a
+                        href="mobile-crm.html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-link"
+                    >
                         View case study →
                     </a>
 
@@ -480,8 +749,7 @@
 
 
             <!-- CARD 5 -->
-
-            <article class="project-card">
+            <article class="project-card" data-category="web-apps">
 
                 <div class="project-image">
                     <span>PROJECT PREVIEW</span>
@@ -501,7 +769,12 @@
                         managing products and orders.
                     </p>
 
-                    <a href="#" class="project-link">
+                    <a
+                        href="store-admin.html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-link"
+                    >
                         View case study →
                     </a>
 
@@ -511,8 +784,7 @@
 
 
             <!-- CARD 6 -->
-
-            <article class="project-card">
+            <article class="project-card" data-category="web-apps">
 
                 <div class="project-image">
                     <span>PROJECT PREVIEW</span>
@@ -532,8 +804,83 @@
                         efficient project management.
                     </p>
 
-                    <a href="#" class="project-link">
+                    <a
+                        href="taskflow.html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-link"
+                    >
                         View case study →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- CARD 7 -->
+            <article class="project-card" data-category="e-commerce">
+
+                <div class="project-image">
+                    <span>PROJECT PREVIEW</span>
+                </div>
+
+                <div class="project-content">
+
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>MongoDB</span>
+                    </div>
+
+                    <h3>ShopSphere</h3>
+
+                    <p>
+                        Modern e-commerce platform with products,
+                        cart and secure checkout experience.
+                    </p>
+
+                    <a
+                        href="shopsphere.html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-link"
+                    >
+                        View case study →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- CARD 8 -->
+            <article class="project-card" data-category="dashboards">
+
+                <div class="project-image">
+                    <span>PROJECT PREVIEW</span>
+                </div>
+
+                <div class="project-content">
+
+                    <div class="project-tags">
+                        <span>Power BI</span>
+                        <span>Analytics</span>
+                    </div>
+
+                    <h3>Sales Analytics</h3>
+
+                    <p>
+                        Interactive sales dashboard with KPIs,
+                        charts and business performance insights.
+                    </p>
+
+                    <a
+                        href="sales-analytics.html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-link"
+                    >
+                        View dashboard →
                     </a>
 
                 </div>
@@ -543,10 +890,14 @@
         </div>
 
 
+        <!-- LOAD MORE -->
+
         <div class="center-btn">
+
             <a href="#" class="outline-btn">
-                Load more projects
+                Load more projects →
             </a>
+
         </div>
 
     </div>
@@ -554,62 +905,101 @@
 </section>
 
 
-<!-- ================= TESTIMONIAL ================= -->
+<!-- ================= TESTIMONIAL SECTION ================= -->
 
-<section class="testimonial-section">
-
+<section class="testimonial-section" id="testimonials">
     <div class="container">
 
+        <!-- Section Badge & Heading -->
         <div class="section-heading">
-
             <span class="section-pill">
-                ✦ TESTIMONIALS
+                04 — TESTIMONIALS
             </span>
 
             <h2>Kind words from clients</h2>
+        </div>
+
+
+        <!-- Testimonial Slider -->
+        <div class="testimonial-slider-wrapper">
+
+            <!-- Left Arrow -->
+            <button 
+                class="slider-arrow prev-btn" 
+                aria-label="Previous Testimonial">
+                ‹
+            </button>
+
+
+            <!-- Testimonial Card -->
+            <div class="testimonial-card">
+
+                <!-- Background Quote -->
+                <span class="bg-quote" aria-hidden="true">“</span>
+
+                <!-- Rating -->
+                <div class="stars" id="testimonialStars">
+                    ★★★★★
+                </div>
+
+                <!-- Testimonial Text -->
+                <p class="testimonial-text" id="testimonialText">
+                    Aarav rebuilt our marketing site in under three weeks.
+                    It loads in well under a second on mobile and enquiries
+                    have gone up by a third since launch. He simply gets the
+                    details right.
+                </p>
+
+
+                <!-- Client -->
+                <div class="client">
+
+                    <img
+                        id="clientImage"
+                        src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150"
+                        alt="Priya Nair"
+                        class="client-avatar"
+                    >
+
+                    <div class="client-info">
+
+                        <strong id="clientName">
+                            Priya Nair
+                        </strong>
+
+                        <small id="clientRole">
+                            Marketing Head, Wanderlust Travel
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Right Arrow -->
+            <button 
+                class="slider-arrow next-btn" 
+                aria-label="Next Testimonial">
+                ›
+            </button>
 
         </div>
 
 
-        <div class="testimonial-card">
-
-            <span class="quote">“</span>
-
-            <div class="stars">
-                ★★★★★
-            </div>
-
-            <p>
-                Ashutosh delivered outstanding work. His attention
-                to detail and understanding of user experience made
-                the final product better than we imagined.
-                He is incredibly reliable and easy to work with.
-            </p>
-
-            <div class="client">
-
-                <div class="client-avatar">
-                    AS
-                </div>
-
-                <div>
-                    <strong>Priya Sharma</strong>
-                    <small>Product Manager</small>
-                </div>
-
-            </div>
-
-        </div>
-
+        <!-- Slider Dots -->
         <div class="slider-dots">
-            <span class="active"></span>
-            <span></span>
-            <span></span>
-            <span></span>
+
+            <button class="dot active" data-index="0"></button>
+
+            <button class="dot" data-index="1"></button>
+
+            <button class="dot" data-index="2"></button>
+
         </div>
 
     </div>
-
 </section>
 
 
@@ -619,6 +1009,7 @@
 
     <div class="container">
 
+        <!-- Section Heading -->
         <div class="section-heading">
 
             <span class="section-pill">
@@ -638,26 +1029,50 @@
         <div class="contact-grid">
 
 
-            <!-- FORM -->
+            <!-- =========================
+                 CONTACT FORM
+            ========================== -->
 
-            <form class="contact-form">
+            <form
+                class="contact-form"
+                id="contactForm"
+            >
 
                 <div class="form-row">
 
+                    <!-- Name -->
                     <div class="form-group">
-                        <label>Your name</label>
+
+                        <label for="userName">
+                            Your name
+                        </label>
+
                         <input
                             type="text"
+                            id="userName"
+                            name="name"
                             placeholder="John Doe"
+                            required
                         >
+
                     </div>
 
+
+                    <!-- Email -->
                     <div class="form-group">
-                        <label>Email address</label>
+
+                        <label for="userEmail">
+                            Email address
+                        </label>
+
                         <input
                             type="email"
+                            id="userEmail"
+                            name="email"
                             placeholder="john@example.com"
+                            required
                         >
+
                     </div>
 
                 </div>
@@ -665,144 +1080,331 @@
 
                 <div class="form-row">
 
+                    <!-- Company -->
                     <div class="form-group">
-                        <label>Company</label>
+
+                        <label for="company">
+                            Company
+                        </label>
+
                         <input
                             type="text"
+                            id="company"
+                            name="company"
                             placeholder="Company name"
                         >
+
                     </div>
 
+
+                    <!-- Budget -->
                     <div class="form-group">
-                        <label>Budget</label>
-                        <select>
-                            <option>Select budget</option>
-                            <option>$500 - $1,000</option>
-                            <option>$1,000 - $3,000</option>
-                            <option>$3,000+</option>
+
+                        <label for="budget">
+                            Budget
+                        </label>
+
+                        <select
+                            id="budget"
+                            name="budget"
+                            required
+                        >
+
+                            <option value="">
+                                Select budget
+                            </option>
+
+                            <option value="500-1000">
+                                $500 - $1,000
+                            </option>
+
+                            <option value="1000-3000">
+                                $1,000 - $3,000
+                            </option>
+
+                            <option value="3000+">
+                                $3,000+
+                            </option>
+
                         </select>
+
                     </div>
 
                 </div>
 
 
+                <!-- Subject -->
                 <div class="form-group">
-                    <label>Subject</label>
+
+                    <label for="subject">
+                        Subject
+                    </label>
 
                     <input
                         type="text"
+                        id="subject"
+                        name="subject"
                         placeholder="How can I help?"
+                        required
                     >
+
                 </div>
 
 
+                <!-- Message -->
                 <div class="form-group">
 
-                    <label>Message</label>
+                    <label for="message">
+                        Message
+                    </label>
 
                     <textarea
+                        id="message"
+                        name="message"
                         rows="6"
                         placeholder="Tell me about your project..."
+                        required
                     ></textarea>
 
                 </div>
 
 
-                <button class="primary-btn submit-btn">
-                    Send message →
+                <!-- Submit -->
+                <button
+                    type="submit"
+                    class="primary-btn submit-btn"
+                >
+
+                    <span>Send message</span>
+
+                    <i class="bi bi-arrow-right"></i>
+
                 </button>
+
+
+                <!-- Form Status -->
+                <p
+                    class="form-status"
+                    id="formStatus"
+                ></p>
 
             </form>
 
 
-            <!-- RIGHT SIDE -->
+
+            <!-- =========================
+                 RIGHT SIDE
+            ========================== -->
 
             <div class="contact-right">
 
-                <div class="contact-item">
-                    <div class="contact-icon">✉</div>
 
-                    <div>
+                <!-- EMAIL -->
+
+                <a
+                    href="mailto:hello.ashutoshtripathi@gmail.com"
+                    class="contact-item contact-link"
+                    aria-label="Send email"
+                >
+
+                    <div class="contact-icon">
+                        <i class="bi bi-envelope"></i>
+                    </div>
+
+                    <div class="contact-info">
+
                         <strong>Email</strong>
-                        <span>hello@example.com</span>
+
+                        <span>
+                            hello.ashutoshTripathi@gmail.com
+                        </span>
+
                     </div>
-                </div>
+
+                </a>
 
 
-                <div class="contact-item">
-                    <div class="contact-icon">▣</div>
 
-                    <div>
+                <!-- PHONE -->
+
+                <a
+                    href="tel:+917223961099"
+                    class="contact-item contact-link"
+                    aria-label="Call phone number"
+                >
+
+                    <div class="contact-icon">
+                        <i class="bi bi-telephone"></i>
+                    </div>
+
+                    <div class="contact-info">
+
                         <strong>Let's connect</strong>
-                        <span>LinkedIn / GitHub</span>
+
+                        <span>
+                            +91 7223961099
+                        </span>
+
                     </div>
-                </div>
+
+                </a>
 
 
-                <div class="contact-item">
-                    <div class="contact-icon">⌖</div>
 
-                    <div>
+                <!-- LOCATION -->
+
+                <a
+                    href="https://www.google.com/maps/search/?api=1&query=Lucknow,India"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-item contact-link"
+                    aria-label="Open location in Google Maps"
+                >
+
+                    <div class="contact-icon">
+                        <i class="bi bi-geo-alt"></i>
+                    </div>
+
+                    <div class="contact-info">
+
                         <strong>Location</strong>
-                        <span>Lucknow, India</span>
+
+                        <span>
+                            Lucknow, India
+                        </span>
+
                     </div>
+
+                </a>
+
+
+
+                <!-- =========================
+                     SOCIAL LINKS
+                ========================== -->
+
+                <div class="contact-social">
+
+                    <a
+                        href="https://github.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="GitHub"
+                    >
+                        <i class="bi bi-github"></i>
+                    </a>
+
+                    <a
+                        href="https://www.linkedin.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="LinkedIn"
+                    >
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+
                 </div>
 
 
-                <!-- FAQ -->
+
+                <!-- =========================
+                     FAQ
+                ========================== -->
 
                 <div class="faq">
 
-                    <h3>Frequently asked</h3>
+                    <h3>
+                        Frequently asked
+                    </h3>
+
+
+                    <!-- FAQ 1 -->
 
                     <details open>
+
                         <summary>
-                            What is your typical turnaround?
-                            <span>−</span>
+
+                            <span>
+                                What is your typical turnaround?
+                            </span>
+
+                            <i class="bi bi-plus"></i>
+
                         </summary>
 
                         <p>
                             Most projects take between 1–4 weeks
                             depending on scope and complexity.
                         </p>
+
                     </details>
 
 
+
+                    <!-- FAQ 2 -->
+
                     <details>
+
                         <summary>
-                            Do you work with existing teams?
-                            <span>+</span>
+
+                            <span>
+                                Do you work with existing teams?
+                            </span>
+
+                            <i class="bi bi-plus"></i>
+
                         </summary>
 
                         <p>
                             Yes, I regularly collaborate with
                             designers, developers and product teams.
                         </p>
+
                     </details>
 
 
+
+                    <!-- FAQ 3 -->
+
                     <details>
+
                         <summary>
-                            Where do you work from?
-                            <span>+</span>
+
+                            <span>
+                                Where do you work from?
+                            </span>
+
+                            <i class="bi bi-plus"></i>
+
                         </summary>
 
                         <p>
                             I work remotely with clients worldwide.
                         </p>
+
                     </details>
 
 
+
+                    <!-- FAQ 4 -->
+
                     <details>
+
                         <summary>
-                            What tools do you use?
-                            <span>+</span>
+
+                            <span>
+                                What tools do you use?
+                            </span>
+
+                            <i class="bi bi-plus"></i>
+
                         </summary>
 
                         <p>
                             React, JavaScript, Node.js, CSS,
                             Git, GitHub and modern development tools.
                         </p>
+
                     </details>
 
                 </div>
@@ -820,90 +1422,204 @@
 
 <!-- ================= FOOTER ================= -->
 
-<footer class="footer">
+<footer class="footer" id="footer">
 
-    <div class="container footer-grid">
+    <div class="container">
 
-        <div class="footer-about">
+        <div class="footer-grid">
 
-            <a href="#" class="logo footer-logo">
-                <span class="logo-box">A</span>
-                <span>Ashyu.</span>
-            </a>
 
-            <p>
-                Frontend developer creating fast, accessible
-                and beautiful digital experiences.
-            </p>
+            <!-- ABOUT -->
+            <div class="footer-about">
 
-            <div class="socials">
-                <a href="#">in</a>
-                <a href="#">GH</a>
-                <a href="#">𝕏</a>
-                <a href="#">◎</a>
+                <a href="#home" class="logo footer-logo">
+
+                    <span class="logo-box">
+                        A
+                    </span>
+
+                    <span>
+                        Ashyu.
+                    </span>
+
+                </a>
+
+
+                <p>
+                    Frontend developer creating fast,
+                    accessible and beautiful digital
+                    experiences.
+                </p>
+
+
+                <!-- Social Links -->
+                <div class="socials">
+
+                    <!-- LinkedIn -->
+                    <a
+                        href="https://www.linkedin.com/in/ashutosh-web-developer/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="LinkedIn"
+                    >
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+
+
+                    <!-- GitHub -->
+                    <a
+                        href="https://github.com/Tripathi-Ashu"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="GitHub"
+                    >
+                        <i class="bi bi-github"></i>
+                    </a>
+
+
+                    <!-- Email -->
+                    <a
+                        href="mailto:hello.ashutoshtripathi@gmail.com"
+                        aria-label="Email"
+                    >
+                        <i class="bi bi-envelope"></i>
+                    </a>
+
+                </div>
+
             </div>
 
-        </div>
 
 
-        <div class="footer-column">
+            <!-- NAVIGATE -->
+            <div class="footer-column">
 
-            <h4>Navigate</h4>
+                <h4>Navigate</h4>
 
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#projects">Work</a>
-            <a href="#contact">Contact</a>
+                <a href="#home">
+                    <i class="bi bi-house"></i>
+                    Home
+                </a>
 
-        </div>
+                <a href="#about">
+                    <i class="bi bi-person"></i>
+                    About
+                </a>
+
+                <a href="#projects">
+                    <i class="bi bi-briefcase"></i>
+                    Work
+                </a>
+
+                <a href="#contact">
+                    <i class="bi bi-chat-dots"></i>
+                    Contact
+                </a>
+
+            </div>
 
 
-        <div class="footer-column">
 
-            <h4>Resources</h4>
+            <!-- RESOURCES -->
+            <div class="footer-column">
 
-            <a href="#">Resume</a>
-            <a href="#">Case Studies</a>
-            <a href="#">Blog</a>
-            <a href="#">Privacy</a>
+                <h4>Resources</h4>
 
-        </div>
+                <a href="#">
+                    <i class="bi bi-file-earmark-text"></i>
+                    Resume
+                </a>
+
+                <a href="#">
+                    <i class="bi bi-folder"></i>
+                    Case Studies
+                </a>
+
+                <a href="#">
+                    <i class="bi bi-journal-text"></i>
+                    Blog
+                </a>
+
+                <a href="#">
+                    <i class="bi bi-shield-check"></i>
+                    Privacy
+                </a>
+
+            </div>
 
 
-        <div class="footer-newsletter">
 
-            <h4>Stay in touch</h4>
+            <!-- NEWSLETTER -->
+            <div class="footer-newsletter">
 
-            <p>
-                Get occasional updates and useful frontend tips.
-            </p>
+                <h4>Stay in touch</h4>
 
-            <div class="newsletter">
+                <p>
+                    Get occasional updates and useful
+                    frontend tips.
+                </p>
 
-                <input
-                    type="email"
-                    placeholder="Your email"
+
+                <form
+                    class="newsletter"
+                    id="newsletterForm"
                 >
 
-                <button>→</button>
+                    <input
+                        type="email"
+                        id="newsletterEmail"
+                        name="email"
+                        placeholder="Your email"
+                        autocomplete="email"
+                        required
+                    >
+
+
+                    <button
+                        type="submit"
+                        aria-label="Subscribe"
+                    >
+                        <i class="bi bi-arrow-right"></i>
+                    </button>
+
+                </form>
+
+
+                <p
+                    class="newsletter-message"
+                    id="newsletterMessage"
+                ></p>
 
             </div>
 
         </div>
 
-    </div>
 
 
-    <div class="footer-bottom container">
+        <!-- FOOTER BOTTOM -->
+        <div class="footer-bottom">
 
-        <span>
-            © 2026 Ashutosh. All rights reserved.
-        </span>
+            <span>
+                © 2026 Ashutosh. All rights reserved.
+            </span>
 
-        <div>
-            <a href="#">Privacy</a>
-            <a href="#">Terms</a>
-            <a href="#">Sitemap</a>
+
+            <div class="footer-bottom-links">
+
+                <a href="#">
+                    Privacy
+                </a>
+
+                <a href="#">
+                    Terms
+                </a>
+
+                <a href="#">
+                    Sitemap
+                </a>
+
+            </div>
+
         </div>
 
     </div>
