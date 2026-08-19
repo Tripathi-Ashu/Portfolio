@@ -491,6 +491,8 @@ button {
 
 /* DONUT */
 
+/* DONUT CARD */
+
 .donut-card {
   border: 1px solid #e9ebf2;
   border-radius: 10px;
@@ -498,58 +500,68 @@ button {
   position: relative;
   min-height: 280px;
   box-shadow: 0 5px 20px rgba(30,35,70,.03);
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .donut-card h3 {
   font-size: 10px;
   text-align: center;
+  margin-bottom: 10px;
+  color: #101426;
 }
 
-.donut {
+/* CHART CANVAS WRAPPER (RESPONSIVE) */
+
+.donut-wrapper {
+  position: relative;
   width: 130px;
   height: 130px;
-  border-radius: 50%;
-  margin: 20px auto;
-  background:
-      conic-gradient(
-          #5146ee 0 43%,
-          #14b9d1 43% 70%,
-          #ff684b 70% 86%,
-          #ffae31 86% 100%
-      );
-  position: relative;
+  margin: 10px auto;
 }
 
-.donut::after {
-  content: "";
-  position: absolute;
-  width: 83px;
-  height: 83px;
-  border-radius: 50%;
-  background: white;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+#timeSplitChart {
+  width: 100% !important;
+  height: 100% !important;
+  cursor: pointer;
 }
+
+/* CENTER OVERLAY TEXT */
 
 .donut-center {
   position: absolute;
-  top: 91px;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   z-index: 2;
   text-align: center;
+  pointer-events: none; /* Mouse hover passes through to canvas */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .donut-center strong {
   display: block;
   font-size: 15px;
+  line-height: 1;
+  color: #101426;
+  font-weight: 700;
 }
 
 .donut-center small {
   font-size: 6px;
   color: #9ba1af;
+  margin-top: 2px;
+  letter-spacing: 0.5px;
 }
+
+/* LEGEND */
 
 .legend {
   display: grid;
@@ -557,6 +569,13 @@ button {
   gap: 8px;
   font-size: 7px;
   color: #71798b;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.legend div {
+  display: flex;
+  align-items: center;
 }
 
 .legend i {
@@ -565,13 +584,13 @@ button {
   height: 6px;
   border-radius: 50%;
   margin-right: 5px;
+  flex-shrink: 0;
 }
 
 .blue { background: #5146ee; }
 .orange { background: #ff684b; }
 .cyan { background: #14b9d1; }
 .purple { background: #ffae31; }
-
 
 /* =========================================================
  PROJECTS

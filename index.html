@@ -16,9 +16,8 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
+
 <body>
-
-
 
 <header class="navbar">
     <div class="container nav-inner">
@@ -29,9 +28,9 @@
         </a>
 
         <nav class="nav-links">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#work">Skills</a>
+            <a href="#" class="active">Home</a>
+            <a href="#home">About</a>
+            <a href="#about">Skills</a>
             <a href="#projects">Work</a>
             <a href="#contact">Contact</a>
         </nav>
@@ -57,13 +56,13 @@
         <div class="hero-content">
 
             <span class="small-pill">
-                ✦ Available for projects
+                ✦ AVAILABLE FOR FREELANCE
             </span>
 
             <h1>
                 I build fast,<br>
                 accessible <span>web</span><br>
-                interfaces that<br>
+                <span>interfaces</span> that<br>
                 convert.
             </h1>
 
@@ -92,8 +91,10 @@
                 </div>
 
                 <div>
+                    
+                    <div class="stars">★★★★★</div>
                     <strong>32 happy clients</strong>
-                    <small>accross 6 countries</small>
+                    <small>across 6 countries</small>
                 </div>
             </div>
 
@@ -177,123 +178,138 @@
     <div class="container">
 
         <div class="section-heading">
-
-            <span class="section-pill">
-                ✦ MY EXPERTISE
-            </span>
-
+            <span class="section-pill">✦ MY EXPERTISE</span>
             <h2>What I work with every day</h2>
-
             <p>
-                Tabs group the stack,progress show depth, the doughnut show 
-                how my time splites.
+                Tabs group the stack, progress shows depth, the doughnut shows how my time splits.
             </p>
-
         </div>
-
 
         <div class="skills-wrapper">
 
-            <!-- LEFT -->
-
+            <!-- LEFT: SKILLS WITH TABS -->
             <div class="skills-list">
 
+                <!-- TABS BUTTONS -->
                 <div class="skill-tabs">
-                    <button class="tab active">Front-end</button>
-                    <button class="tab">Styling</button>
-                    <button class="tab">Tools</button>
+                    <button class="tab active" data-tab="frontend">Front-end</button>
+                    <button class="tab" data-tab="styling">Styling</button>
+                    <button class="tab" data-tab="tools">Tools</button>
                 </div>
 
-                <div class="skill-item">
-                    <div>
-                        <span>HTML5 & Semantics</span>
-                        <b>95%</b>
+                <!-- TAB 1: FRONT-END -->
+                <div class="tab-content active" id="frontend">
+                    <div class="skill-item">
+                        <div>
+                            <span>HTML5 & Semantics</span>
+                            <b>95%</b>
+                        </div>
+                        <div class="progress">
+                            <span style="width:95%"></span>
+                        </div>
                     </div>
-                    <div class="progress">
-                        <span style="width:95%"></span>
+                    <div class="skill-item">
+                        <div>
+                            <span>JavaScript (ES6+)</span>
+                            <b>75%</b>
+                        </div>
+                        <div class="progress">
+                            <span style="width:75%"></span>
+                        </div>
                     </div>
-                </div>
-
-                <div class="skill-item">
-                    <div>
-                        <span>CSS3 / Flexbox / Grid</span>
-                        <b>90%</b>
-                    </div>
-                    <div class="progress">
-                        <span style="width:92%"></span>
-                    </div>
-                </div>
-
-                <div class="skill-item">
-                    <div>
-                        <span>Bootstrap 5</span>
-                        <b>88%</b>
-                    </div>
-                    <div class="progress">
-                        <span style="width:88%"></span>
-                    </div>
-                </div>
-
-                <div class="skill-item">
-                    <div>
-                        <span>JavaScript(ES6)</span>
-                        <b>75%</b>
-                    </div>
-                    <div class="progress">
-                        <span style="width:86%"></span>
+                    <div class="skill-item">
+                        <div>
+                            <span>Accessibility & SEO</span>
+                            <b>78%</b>
+                        </div>
+                        <div class="progress">
+                            <span style="width:78%"></span>
+                        </div>
                     </div>
                 </div>
 
-                <div class="skill-item">
-                    <div>
-                        <span>Accessibility & SEO</span>
-                        <b>78%</b>
+                <!-- TAB 2: STYLING -->
+                <div class="tab-content" id="styling" style="display: none;">
+                    <div class="skill-item">
+                        <div>
+                            <span>CSS3 / Flexbox / Grid</span>
+                            <b>90%</b>
+                        </div>
+                        <div class="progress">
+                            <span style="width:90%"></span>
+                        </div>
                     </div>
-                    <div class="progress">
-                        <span style="width:82%"></span>
+                    <div class="skill-item">
+                        <div>
+                            <span>Bootstrap 5</span>
+                            <b>88%</b>
+                        </div>
+                        <div class="progress">
+                            <span style="width:88%"></span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div>
+                            <span>Sass / SCSS</span>
+                            <b>80%</b>
+                        </div>
+                        <div class="progress">
+                            <span style="width:80%"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 3: TOOLS -->
+                <div class="tab-content" id="tools" style="display: none;">
+                    <div class="skill-item">
+                        <div>
+                            <span>Git & GitHub</span>
+                            <b>85%</b>
+                        </div>
+                        <div class="progress">
+                            <span style="width:85%"></span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div>
+                            <span>VS Code</span>
+                            <b>90%</b>
+                        </div>
+                        <div class="progress">
+                            <span style="width:90%"></span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div>
+                            <span>Figma / Responsive Design</span>
+                            <b>82%</b>
+                        </div>
+                        <div class="progress">
+                            <span style="width:82%"></span>
+                        </div>
                     </div>
                 </div>
 
             </div>
 
-
-            <!-- DONUT -->
-
+            <!-- RIGHT: DONUT CHART -->
             <div class="donut-card">
-
                 <h3>How my time splits</h3>
-
-                <div class="donut"></div>
-
-                <div class="donut-center">
-                    <strong>100%</strong>
-                    <small>EFFORT</small>
+            
+                <div class="donut-wrapper">
+                    <canvas id="timeSplitChart"></canvas>
+                    <div class="donut-center">
+                        <strong id="donut-percent">100%</strong>
+                        <small id="donut-text">EFFORT</small>
+                    </div>
                 </div>
-
+            
                 <div class="legend">
-
-                    <div>
-                        <i class="blue"></i>
-                        Markup 40%
-                    </div>
-
-                    <div>
-                        <i class="orange"></i>
-                        Styling 26%
-                    </div>
-
-                    <div>
-                        <i class="cyan"></i>
-                        Testing 14%
-                    </div>
-
-                    <div>
-                        <i class="purple"></i>
-                        Scripting 20%
-                    </div>
-
+                    <div><i class="blue"></i> Markup 40%</div>
+                    <div><i class="orange"></i> Styling 26%</div>
+                    <div><i class="purple"></i> Scripting 20%</div>
+                    <div><i class="cyan"></i> Testing 14%</div>
                 </div>
-
             </div>
 
         </div>
@@ -949,48 +965,11 @@
 </div>
 
 
-<script>
+<!-- 1. Pehle Chart.js Library -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-const menuBtn = document.getElementById("menuBtn");
-const navLinks = document.querySelector(".nav-links");
-
-menuBtn.addEventListener("click", () => {
-    navLinks.classList.toggle("show");
-});
-
-
-/* Modal */
-
-const modal = document.getElementById("projectModal");
-const closeModal = document.getElementById("closeModal");
-
-document.querySelectorAll(".project-link").forEach(link => {
-
-    link.addEventListener("click", function(e) {
-
-        e.preventDefault();
-
-        modal.classList.add("show");
-
-    });
-
-});
-
-
-closeModal.addEventListener("click", () => {
-    modal.classList.remove("show");
-});
-
-
-modal.addEventListener("click", e => {
-
-    if(e.target === modal){
-        modal.classList.remove("show");
-    }
-
-});
-
-</script>
+<!-- 2. Uske baad aapka apna script.js -->
+<script src="script.js"></script>
 
 </body>
 </html>
